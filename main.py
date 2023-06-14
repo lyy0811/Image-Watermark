@@ -61,8 +61,8 @@ if __name__ == '__main__':
     parser.add_argument('--image_val_dir', type=str, default='Datasets/Recover/result/')
     #parser.add_argument('--image_val_dir', type=str, default='Datasets/COCOMask/val/val_class/val/')
     parser.add_argument('--log_dir', type=str, default='logs')
-    #parser.add_argument('--model_save_dir', type=str, default='models')
-    parser.add_argument('--model_save_dir', type=str, default='models/train1.0')#存储模型参数的根目录
+    parser.add_argument('--model_save_dir', type=str, default='models')
+    #parser.add_argument('--model_save_dir', type=str, default='models/train1.0')#存储模型参数的根目录
     parser.add_argument('--model_name',type=str,default='Encoder_Decoder_Model')
     parser.add_argument('--result_dir', type=str, default='results/2.0')#存储结果图的根目录
     parser.add_argument('--wmat_dir', type=str, default='results/WatermarkMatrix/w.mat')

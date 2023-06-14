@@ -1,6 +1,8 @@
 # Image-Watermark
 # To train the network 
 
+训练前需要对图像进行预处理，使用BDCN预训练模型对其进行边缘提取。
+
 python main.py --dataset train_mask --mode train_mask --image_dir '.../' --image_val_dir '.../'
 
 PS: Before training, pls generate the training dataset like the examples shown in the 'Datasets/COCOMask/train/train_class/'
